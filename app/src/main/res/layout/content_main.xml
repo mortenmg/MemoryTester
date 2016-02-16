@@ -25,10 +25,18 @@
             android:onClick="onClickNewGame" />
 
         <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Answer questions"
+        android:id="@+id/bContinue"
+        android:onClick="onClickContinue" />
+
+        <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Continue"
-            android:id="@+id/bContinue"
-            android:onClick="onClickContinue" />
+            android:text="Show statistics"
+            android:id="@+id/bStats"
+            android:onClick="onClickShowStats" />
+
     </LinearLayout>
 </RelativeLayout>

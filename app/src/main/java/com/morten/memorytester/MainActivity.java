@@ -58,4 +58,8 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this,QuestionActivity.class);
         startActivity(intent);
     }
+    public void onClickShowStats(View view){
+        Intent intent = new Intent(this,StatsActivity.class);
+        startActivity(intent);
+    }
 }
